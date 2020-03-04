@@ -1,0 +1,28 @@
+{
+  "name": "promise-chain",
+  "version": "1.0.0",
+  "description": "Execute promises one after an other using Array reduce",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bredele/promise-chain.git"
+  },
+  "keywords": [
+    "promise",
+    "chain",
+    "sequence",
+    "sequentially"
+  ],
+  "author": "Olivier Wietrich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/promise-chain/issues"
+  },
+  "homepage": "https://github.com/bredele/promise-chain#readme"
+}
