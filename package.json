@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/bredele/promise-chain/issues"
   },
-  "homepage": "https://github.com/bredele/promise-chain#readme"
+  "homepage": "https://github.com/bredele/promise-chain#readme",
+  "devDependencies": {
+    "tape": "^4.13.2"
+  }
 }
