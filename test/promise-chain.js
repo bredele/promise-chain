@@ -11,3 +11,11 @@ test('should execute promise callback', assert => {
     () => Promise.resolve('hello world')
   ).then(data => assert.equal(data, 'hello world'))
 })
+
+test('should execute multiple promise callbacks one after an other and pass value', assert => {
+  assert.plan(1)
+  chain(
+    () => Promise.resolve('hello'),
+    value => Promise.resolve(value + ' world')
+  ).then(data => assert.equal(data, 'hello world'))
+})
