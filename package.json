@@ -1,5 +1,5 @@
 {
-  "name": "promise-chain",
+  "name": "@bredele/promise-chain",
   "version": "1.0.0",
   "description": "Execute promises one after an other using Array reduce",
   "main": "index.js",
